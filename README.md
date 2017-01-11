@@ -29,4 +29,6 @@ rails db:migrate     (runs the db migration)
 (create an edit.html.erb file in app/views/articles/)
 (create an update method in the Articles controller)
 (add links to edit articles in the articles index page and page for each article)
+(create a partial for form template _form.html.erb in app/views/articles/)
+(modify the new and edit templates to use the form partial)
 ```
