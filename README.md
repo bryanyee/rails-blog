@@ -31,4 +31,6 @@ rails db:migrate     (runs the db migration)
 (add links to edit articles in the articles index page and page for each article)
 (create a partial for form template _form.html.erb in app/views/articles/)
 (modify the new and edit templates to use the form partial)
+(add destroy method to Articles controller)
+(add a destroy link for articles on the index page)
 ```
