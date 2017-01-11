@@ -25,4 +25,8 @@ rails db:migrate     (runs the db migration)
 (add validation to the Articles model)
 (modify the Articles controller to handle data validation)
 (modify new.html.erb to handle errors)
+(create an edit method in the Articles controller)
+(create an edit.html.erb file in app/views/articles/)
+(create an update method in the Articles controller)
+(add links to edit articles in the articles index page and page for each article)
 ```
