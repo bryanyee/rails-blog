@@ -1,4 +1,6 @@
-# README
+# Rails blog
+
+[See the guide here.](http://guides.rubyonrails.org/getting_started.html)
 
 ```
 gem install rails
@@ -41,4 +43,9 @@ rails generate controller Comments
 (add comment form in articles/show.html.erb)
 (add create method to Comments controller)
 (add markup for comments in show.html.erb)
+(create partials for comments)
+(add link to delete comments)
+(add destroy method to Comments controller)
+(add dependent: :destroy  option to the Article model)
+(add http_basic_authenticate_with name to article model and comment model)
 ```
