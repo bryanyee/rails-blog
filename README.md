@@ -33,4 +33,12 @@ rails db:migrate     (runs the db migration)
 (modify the new and edit templates to use the form partial)
 (add destroy method to Articles controller)
 (add a destroy link for articles on the index page)
+rails generate model Comment commenter:string body:text article:references
+rails db:migrate
+(associate comments w/ articles in the article model w/  has_many :comments)
+(add a nested resource for comments within articles in config/routes.rb)
+rails generate controller Comments
+(add comment form in articles/show.html.erb)
+(add create method to Comments controller)
+(add markup for comments in show.html.erb)
 ```
